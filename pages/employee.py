@@ -97,7 +97,7 @@ def user_page(username, authenticator):
         col13, col14 = st.columns(2)
         with col13:
             pcode = st.text_input("کد پروژه:",
-                                  max_chars=9,
+                                  max_chars=14,
                                   key=0,
                                   disabled=False)
         with col14:
